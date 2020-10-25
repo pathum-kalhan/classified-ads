@@ -50,7 +50,7 @@ export default function NewClassified() {
   return (
     <Card>
       <CardContent style={{ textAlign: 'right' }}>
-        <CloseIcon onClick={() => closeDrawer()} />
+        <CloseIcon onClick={() => closeDrawer()} style={{cursor:'pointer'}} />
       </CardContent>
       <CardHeader title='New Classified'></CardHeader>
       <Formik

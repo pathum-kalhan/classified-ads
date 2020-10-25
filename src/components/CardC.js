@@ -65,7 +65,7 @@ export default function CardC(props) {
             )}
           </IconButton>
         </CardMedia>
-        <CardContent onClick={() => toggleMode(props.id)}>
+        <CardContent onClick={() => toggleMode(props.id)} style={{cursor:'pointer'}}>
           <Typography variant='h6'>
             {props.categoryName.toUpperCase()}
           </Typography>
